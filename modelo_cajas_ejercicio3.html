@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="utf-8" />
+        <title>Ejercicio 3</title>
+        <style media="screen" type="text/css">
+            html, body {
+                margin: 5px;
+                padding: 2px;
+            }
+           
+            .square {
+                height: 200px;
+                width: 300px;
+                border: 1px solid #808080;
+                margin-right: 30px;
+            }
+           
+            .espana {
+                height: 100px;
+                width: 300px;
+                background-color: #FFFF00;
+                position: absolute;
+                top: 60px;
+                border: none;
+            }
+           
+            .dina1 {
+                height: 20px;
+                width: 300px;
+                top: 100px;
+                background-color: #FFFFFF;
+                position: absolute;
+                border: none;
+            }
+           
+            .dina2 {
+                height: 200px;
+                width: 20px;
+                left: 430px;
+                background-color: #FFFFFF;
+                position: absolute;
+                border: none;
+            }
+           
+            .flag {
+                display: inline-block;
+            }
+
+            .emiratos1 {
+                height: 66.6px;
+                width: 225px;
+                top: 271px;
+                left: 90px;
+                position: absolute;
+            }
+            .emiratos2 {
+                height: 66.6px;
+                width: 225px;
+                top: 337.6px;
+                left: 90px;
+                position: absolute;
+            }
+            .emiratos3 {
+                height: 66.6px;
+                width: 225px;
+                top: 404.2px;
+                left: 90px;
+                position: absolute;
+            }
+            .japon {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                top: 330px;
+                left: 456px;
+                background: #ff0000;
+                position: absolute;
+            }
+
+    
+</style>
+</head>
+
+<body>
+    
+    <div class="flag">
+        <!--style define el cuadrado en CSS de manera individual y específica en cada llamado que se hace al square-->
+        <section class="square" style="background-color:red;">
+            <section class="espana"></section>
+        </section>
+        <br>
+        España
+    </div>
+    <div class="flag">
+        <section class="square" style="background-color:red;">
+            <section class="dina1"></section>
+            <section class="dina2"></section>
+        </section>
+        <br>
+        Dinamarca
+    </div>
+    <br><br>
+    <div class="flag">
+        <section class="square" style="background-color:red;"></section>
+        <section class="emiratos1" style="background-color: green;" ></section>
+        <section class="emiratos2" style="background-color: white;"></section>
+        <section class="emiratos3" style="background-color: black;"></section>
+        <br>
+        Emiratos Árabes
+    </div>
+    <div class="flag">
+        <section class="square" style="background-color:white;"></section>
+        <section class="japon"></section>
+        <br>
+        Japón
+    </div>
+   
+     
+</body>
+</html>
